@@ -6,6 +6,7 @@ import Briefbytes from "../assets/Briefbytes.png";
 import Cmanager from "../assets/Cmanager.png";
 import ShopCart from "../assets/ShopCart.png";
 import passward from '../assets/Passward.png'
+import SportsMart from '../assets/SportsMart.png'
 
 
 const Projects = () => {
@@ -59,7 +60,7 @@ const Projects = () => {
                 className="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80"
               >
                 <img
-                  src={one}
+                  src={SportsMart}
                   loading="lazy"
                   alt="Photo by Magicle"
                   className="absolute inset-0 h-full w-full object-cover object-top transition duration-200 group-hover:scale-110"
@@ -68,7 +69,7 @@ const Projects = () => {
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-100 text-black"></div>
 
                 <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">
-                  E commerce Website  With React ,  Redux  , Tailwind , Firbase  , Razorpay
+                    E commerce Website  With React ,  Redux  , Context Api , Tailwind , Firbase Auth and Database   , Razorpay Payment Integration
                 </span>
               </a>
 
