@@ -127,6 +127,7 @@ const HeroSection = () => {
               <img
                 className="  sm:mb-9 rounded-md "
                 src={profile}
+                loading="lazy"
                 alt="myImage"
               />
             </div>
