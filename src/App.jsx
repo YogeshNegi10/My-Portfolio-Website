@@ -51,7 +51,7 @@ const App = () => {
       <ThemeProvider value={{ themeMode, darktheme, lighttheme }}>
         <ToastContainer />
         <Navbar />
-        <div className=" bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col justify-between p-10">   
+        <div className=" bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen flex flex-col justify-between p-6">   
           <HeroSection />
           <About />
           <Skills />
