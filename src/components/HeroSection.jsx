@@ -123,13 +123,15 @@ const HeroSection = () => {
                 </span>
               </div>
             </div>
-            <div className="b hidden lg:col-span-5 lg:flex  max-w-80 ml-40 lg:order-2 md:mb-6">
+            <div className=" hidden lg:col-span-5 lg:flex  max-w-80 ml-40 lg:order-2 md:mb-6  overflow-hidden">
+           
               <img
-                className="  sm:mb-9 rounded-md "
+                className="rounded-md"
                 src={profile}
                 loading="lazy"
                 alt="myImage"
               />
+            
             </div>
           </div>
         </div>

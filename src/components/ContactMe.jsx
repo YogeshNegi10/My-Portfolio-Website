@@ -20,13 +20,13 @@ const ContactMe = () => {
       })
       .then(
         () => {
-          toast.success('Sent Successfully')
+          toast.success('Your Message has been sent successfully!')
           console.log('SUCCESS!');
       
         },
         (error) => {
           console.log('FAILED...', error.text);
-          toast('Failed !')
+          toast(error.text)
         },
       );
    

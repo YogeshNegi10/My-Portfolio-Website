@@ -51,14 +51,14 @@ const App = () => {
       <ThemeProvider value={{ themeMode, darktheme, lighttheme }}>
         <ToastContainer />
         <Navbar />
-        <div className=" p-6 sm:p-8 dark:bg-gray-900 ">
+        <div className=" bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen p-10">   
           <HeroSection />
           <About />
           <Skills />
           <Projects />
           <ContactMe />
+          </div>
           <Footer />
-        </div>
       </ThemeProvider>
     </>
   );
