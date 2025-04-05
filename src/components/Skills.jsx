@@ -3,8 +3,8 @@ import { skills } from "../skills";
 const Skills = () => {
   return (
     <>
-      <section id="skills" className="bg-white dark:bg-gray-900">
-        <div className="bg-white dark:bg-gray-800  py-6 sm:py-6  ">
+      <section id="skills" className="bg-gray-100 dark:bg-gray-900">
+        <div className="bg-gray-100 dark:bg-gray-800  py-6 sm:py-6  ">
           <h1 className=" text-5xl text-center font-bold m-8 dark:text-white">
             Experience
           </h1>

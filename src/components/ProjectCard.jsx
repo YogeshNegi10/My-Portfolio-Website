@@ -69,7 +69,7 @@ const ProjectCard = () => {
     <>
       {Project.map((project) => (
         <div key={project.id} class="px-2 py-20 w-full flex justify-center">
-          <div class="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
+          <div class="bg-gray-100 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
             <div class="lg:w-1/2">
               <div
                 class="lg:scale-110 h-80 bg-cover lg:h-full rounded-b-none border lg:rounded-lg"

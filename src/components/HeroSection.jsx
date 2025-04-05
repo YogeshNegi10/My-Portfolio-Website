@@ -6,7 +6,7 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="bg-white dark:bg-gray-900 ">
+      <section className="bg-gray-100 dark:bg-gray-900 ">
         <div className="w-full flex justify-between  dark:bg-gray-900 ">
           <div className="grid max-w-screen-xl px-10 py-4 mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12 mt-10">
             <div className=" mr-auto place-self-center lg:col-span-7  md:text-center ">

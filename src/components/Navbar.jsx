@@ -22,7 +22,7 @@ const Navbar = () => {
     <div id="home">
       <nav
         id="nav"
-        className="bg-white border-b dark:bg-gray-900 dark:border-gray-700  "
+        className="bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-700  "
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between  mx-auto p-4">
           <a
@@ -106,7 +106,7 @@ const Navbar = () => {
             } items-center justify-between   w-full md:flex md:w-auto md:order-1`}
             id="navbar-cta"
           >
-            <ul className="   flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 cursor-pointer transition-all duration-300 ease-out">
+            <ul className="   flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-gray-100 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 cursor-pointer transition-all duration-300 ease-out">
               <li>
                 <Link
                   activeClass="active"
