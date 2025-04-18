@@ -1,6 +1,7 @@
 import React from "react";
 import profile from '../assets/profile.jpg'
 import { Link } from "react-scroll";
+import pdf from "../assets/skill/resume.pdf";
 
 const HeroSection = () => {
 
@@ -37,7 +38,7 @@ const HeroSection = () => {
                   Hire me
                 </Link>
                 <a
-                  href='' download={""}
+                   href={pdf} download={"resume.pdf"}
                   className=" sm:hidden inline-block items-center ml-7 justify-center px-4 py-2 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800 "
                 >
                 Download Cv

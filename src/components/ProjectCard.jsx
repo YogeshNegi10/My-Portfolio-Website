@@ -76,7 +76,7 @@ const ProjectCard = () => {
   return (
     <>
       {Project.map((project) => (
-        <div key={project.id} class="px-2 py-20 w-full flex justify-center">
+        <div key={project.id} class="px-2 py-20 w-full  flex justify-center">
           <div class="bg-gray-100 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg rounded-lg">
             <div class="lg:w-1/2">
               <div
