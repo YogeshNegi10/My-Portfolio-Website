@@ -17,7 +17,7 @@ const App = () => {
 
   const [themeMode, setThemeMode] = useState(() => {
     const theme = JSON.parse(localStorage.getItem("theme"));
-    return theme || "light";
+    return theme || "dark";
   });
 
   const lighttheme = () => {
